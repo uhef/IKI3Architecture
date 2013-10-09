@@ -392,6 +392,13 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-returnSessionToIKI #returnFE {
+    opacity: 1;
+}
+
+.impress-on-returnSessionToTerminal #enterURL {
+    opacity: 1;
+}
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
