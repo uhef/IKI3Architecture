@@ -282,12 +282,23 @@ a:focus {
     font-size: 32px;
 }
 
+#enterURL #terminal {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: -400px;
+}
+
 #enterURL #arrow {
     width: 200px;
     height: 150px;
     background-size: 100%;
     background-image: url('arrow2.svg');
     background-repeat: no-repeat;
+    position: absolute;
+    left: 900px;
+    top: -250px;
 }
 
 /*
