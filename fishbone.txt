@@ -1,0 +1,20 @@
+tavallinen ostosskenaario 10 min
+ - drill-down of the whole architecture
+ - how messages flow from one component to the next one
+   - selain, iki, iki-redis, torpedo, sw, ...
+ - session
+ - message payload formats
+fe 5 min
+ - fake backend
+ - mocha tests
+ - exception handling
+iki 10 min
+ - iki redis
+ - future of iki
+ - request ids
+torpedo 10 min
+ - torpedo redis??
+sw 10 min
+ - sw cache
+ - captain
+tests???
