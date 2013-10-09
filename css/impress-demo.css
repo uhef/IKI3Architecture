@@ -400,6 +400,10 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-queryMealPackageFromIKI #returnFE {
+    opacity: 1;
+}
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
