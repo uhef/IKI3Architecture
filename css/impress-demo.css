@@ -302,6 +302,16 @@ a:focus {
     top: -250px;
 }
 
+#returnFE #iki {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: -400px;
+    text-align: center;
+    left: 200px;
+}
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
