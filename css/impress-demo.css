@@ -313,6 +313,38 @@ a:focus {
     left: 200px;
 }
 
+#returnFE #iki-torpedo-arrow {
+    width: 200px;
+    height: 266px;
+    background-size: 100%;
+    background-image: url('arrow-down.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
+
+#openSessionInTorpedo #torpedo {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: -400px;
+    text-align: center;
+    left: 200px;
+}
+
+#openSessionInTorpedo #torpedo-sw-arrow {
+    width: 200px;
+    height: 266px;
+    background-size: 100%;
+    background-image: url('arrow-down.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
+
 .impress-on-renderPage #enterURL {
     opacity: 1;
 }
