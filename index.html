@@ -206,7 +206,11 @@
             Browser
             <ul>
                 <li id="enter-url-bullet">1. Enter booking.tallink.com</li><br/>
-                <li id="render-page-bullet">3. Render page</li>
+                <li id="render-page-bullet">3. Render page</li><br/>
+                <li id="query-meal-package-bullet">8. Query meal package</li><br/>
+                <li id="commence-web-bank-payment-bullet">11. Commence web bank payment</li><br/>
+                <li id="redirect-to-bank-bullet">13. Redirect to bank</li>
+                <li id="send-transaction-to-iki-bullet">15. Send transaction details to IKI</li>
             </ul>
         </div>
         <div class="redis-arrow"></div>
@@ -218,7 +222,10 @@
             IKI3
             <ul>
                 <li id="return-index-bullet">2. Return index.html</li><br/>
-                <li id="open-session-bullet">4. Open session</li>
+                <li id="open-session-bullet">4. Open session</li><br/>
+                <li id="search-from-redis">9. Search from Redis</li><br/>
+                <li id="generate-web-bank-url-bullet">12. Generate web bank payment URL</li><br/>
+                <li id="confirm-booking-bullet">16. Confirm booking</li>
             </ul>
         </div>
         <div id="iki-torpedo-arrow" class="arrow-down"></div>
@@ -246,6 +253,8 @@
             BizLogic
             <ul>
                 <li id="login-bullet">6. Login</li><br/>
+                <li id="search-from-cache-bullet">10. Search travel classes from cache</li><br/>
+                <li id="store-booking-bullet">17. Store booking</li>
             </ul>
         </div>
         <div class="redis-arrow"></div>
@@ -285,7 +294,12 @@
     <div id="returnTravelClassToSW" class="step" data-x="1000" data-y="3000"></div>
 
     <div id="populateSWCache" class="step sequence" data-x="1000" data-y="4500">
-        <div id="captain" class="component">Captain</div>
+        <div id="captain" class="component">
+            Captain
+            <ul>
+                <li id="populate-bullet">Separate program that populates SeaWare cache</li>
+            </ul>
+        </div>
     </div>
 
     <div id="commenceWebBankPayment" class="step"></div>
@@ -295,7 +309,12 @@
     <div id="redirectToWebBank" class="step"></div>
 
     <div id="payInWebBank" class="step sequence" data-y="1500">
-        <div id="webbank" class="component">Web Bank</div>
+        <div id="webbank" class="component">
+            Web Bank
+            <ul>
+                <li id="pay-bullet">14. Execute transaction</li>
+            </ul>
+        </div>
     </div>
 
     <div id="redirectBackToIKI" class="step"></div>

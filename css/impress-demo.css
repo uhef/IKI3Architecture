@@ -344,7 +344,15 @@ a:focus {
     opacity: 1;
 }
 
-#openSessionInSW #login-bullet {
+#openSessionInSW.present #login-bullet {
+    opacity: 1;
+}
+
+#populateSWCache.present #populate-bullet {
+    opacity: 1;
+}
+
+#payInWebBank.present #pay-bullet {
     opacity: 1;
 }
 
@@ -383,7 +391,15 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-returnSessionToTerminal #enterURL #query-meal-package-bullet {
+    opacity: 1;
+}
+
 .impress-on-queryMealPackageFromIKI #returnFE {
+    opacity: 1;
+}
+
+.impress-on-queryMealPackageFromIKI #returnFE #search-from-redis {
     opacity: 1;
 }
 
@@ -407,6 +423,10 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-requestTravelClassesFromSW #openSessionInSW #search-from-cache-bullet {
+    opacity: 1;
+}
+
 .impress-on-returnTravelClassToSW #openSessionInSW {
     opacity: 1;
 }
@@ -415,7 +435,15 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-commenceWebBankPayment #enterURL #commence-web-bank-payment-bullet {
+    opacity: 1;
+}
+
 .impress-on-generateWebBankURL #returnFE {
+    opacity: 1;
+}
+
+.impress-on-generateWebBankURL #returnFE #generate-web-bank-url-bullet {
     opacity: 1;
 }
 
@@ -423,7 +451,15 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-redirectToWebBank #enterURL #redirect-to-bank-bullet {
+    opacity: 1;
+}
+
 .impress-on-redirectBackToIKI #enterURL {
+    opacity: 1;
+}
+
+.impress-on-redirectBackToIKI #enterURL #send-transaction-to-iki-bullet {
     opacity: 1;
 }
 
@@ -431,7 +467,15 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-sendConfirmation #returnFE #confirm-booking-bullet {
+    opacity: 1;
+}
+
 .impress-on-confirmBooking #openSessionInSW {
+    opacity: 1;
+}
+
+.impress-on-confirmBooking #openSessionInSW #store-booking-bullet {
     opacity: 1;
 }
 
