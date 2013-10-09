@@ -201,13 +201,13 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="enterURL" class="step">
+    <div id="enterURL" class="step sequence">
         <div id="terminal" class="component">Terminal</div>
         <div class="redis-arrow"></div>
         <div class="arrow-down"></div>
     </div>
 
-    <div id="returnFE" class="step" data-x="1000">
+    <div id="returnFE" class="step sequence" data-x="1000">
         <div id="iki" class="component">IKI3</div>
         <div id="iki-torpedo-arrow" class="arrow-down"></div>
         <div class="redis-arrow"></div>
@@ -217,13 +217,13 @@
 
     <div id="openSessionInIKI" class="step" data-x="1000"></div>
 
-    <div id="openSessionInTorpedo" class="step" data-x="1000" data-y="1500">
+    <div id="openSessionInTorpedo" class="step sequence" data-x="1000" data-y="1500">
         <div id="torpedo" class="component">Torpedo</div>
         <div id="torpedo-sw-arrow" class="arrow-down"></div>
         <div class="redis-arrow"></div>
     </div>
 
-    <div id="openSessionInSW" class="step" data-x="1000" data-y="3000">
+    <div id="openSessionInSW" class="step sequence" data-x="1000" data-y="3000">
         <div id="bizlogic" class="component">BizLogic</div>
         <div class="redis-arrow"></div>
         <div id="sw-captain-arrow" class="arrow-up"></div>
@@ -231,7 +231,7 @@
 
     <div id="returnSessionToTorpedo" class="step" data-x="1000" data-y="1500"></div>
 
-    <div id="saveSessionToRedis" class="step" data-x="2000" data-y="1500">
+    <div id="saveSessionToRedis" class="step sequence" data-x="2000" data-y="1500">
         <div id="torpedo-redis" class="component">Torpedo Redis</div>
     </div>
 
@@ -243,7 +243,7 @@
 
     <div id="queryMealPackageFromIKI" class="step" data-x="1000"></div>
 
-    <div id="queryMealPackageFromRedis" class="step" data-x="2000">
+    <div id="queryMealPackageFromRedis" class="step sequence" data-x="2000">
         <div id="iki-redis" class="component">IKI3 Redis</div>
     </div>
 
@@ -255,13 +255,13 @@
 
     <div id="requestTravelClassesFromSW" class="step" data-x="1000" data-y="3000"></div>
 
-    <div id="requestTravelClassesFromCache" class="step" data-x="2000" data-y="3000">
+    <div id="requestTravelClassesFromCache" class="step sequence" data-x="2000" data-y="3000">
         <div id="sw-cache" class="component">SeaWare Cache</div>
     </div>
 
     <div id="returnTravelClassToSW" class="step" data-x="1000" data-y="3000"></div>
 
-    <div id="populateSWCache" class="step" data-x="1000" data-y="4500">
+    <div id="populateSWCache" class="step sequence" data-x="1000" data-y="4500">
         <div id="captain" class="component">Captain</div>
     </div>
 
@@ -271,7 +271,7 @@
 
     <div id="redirectToWebBank" class="step"></div>
 
-    <div id="payInWebBank" class="step" data-y="1500">
+    <div id="payInWebBank" class="step sequence" data-y="1500">
         <div id="webbank" class="component">Web Bank</div>
     </div>
 
@@ -280,6 +280,9 @@
     <div id="sendConfirmation" class="step" data-x="1000"></div>
 
     <div id="confirmBooking" class="step" data-x="1000" data-y="3000"></div>
+
+    <div id="architectureOverview" class="step" data-x="1500" data-y="2000" data-scale="6">
+    </div>
 
     <!--
         
