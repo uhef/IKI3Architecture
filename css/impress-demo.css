@@ -282,7 +282,7 @@ a:focus {
     font-size: 32px;
 }
 
-#enterURL #terminal {
+.step .component {
     width: 400px;
     height: 400px;
     background-color: white;
@@ -303,16 +303,6 @@ a:focus {
     top: -250px;
 }
 
-#returnFE #iki {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    top: -400px;
-    text-align: center;
-    left: 200px;
-}
-
 #returnFE #iki-torpedo-arrow {
     width: 200px;
     height: 266px;
@@ -322,16 +312,6 @@ a:focus {
     position: absolute;
     left: 300px;
     top: 400px;
-}
-
-#openSessionInTorpedo #torpedo {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    top: -400px;
-    text-align: center;
-    left: 200px;
 }
 
 #openSessionInTorpedo #torpedo-sw-arrow {
@@ -354,46 +334,6 @@ a:focus {
     position: absolute;
     left: 850px;
     top: -250px;
-}
-
-#openSessionInSW #bizlogic {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    top: -400px;
-    text-align: center;
-    left: 200px;
-}
-
-#saveSessionToRedis #torpedo-redis {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    top: -400px;
-    text-align: center;
-    left: 200px;
-}
-
-#queryMealPackageFromRedis #iki-redis {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    top: -400px;
-    text-align: center;
-    left: 200px;
-}
-
-#requestTravelClassesFromCache #sw-cache {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    top: -400px;
-    text-align: center;
-    left: 200px;
 }
 
 .impress-on-renderPage #enterURL {
@@ -441,6 +381,10 @@ a:focus {
 }
 
 .impress-on-requestTravelClassesFromSW #openSessionInSW {
+    opacity: 1;
+}
+
+.impress-on-returnTravelClassToSW #openSessionInSW {
     opacity: 1;
 }
 
