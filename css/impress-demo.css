@@ -292,6 +292,17 @@ a:focus {
     left: 200px;
 }
 
+.step .component li {
+    font-size: 35px;
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: opacity 1.5s;
+}
+
+#enterURL.present li {
+    opacity: 1;
+}
+
 .step .arrow-down {
     width: 200px;
     height: 266px;
