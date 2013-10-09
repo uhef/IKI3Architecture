@@ -433,6 +433,19 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-requestTravelClassesFromIKI #returnFE {
+    opacity: 1;
+}
+
+.impress-on-requestTravelClassesFromTorpedo #openSessionInTorpedo {
+    opacity: 1;
+}
+
+.impress-on-requestTravelClassesFromSW #openSessionInSW {
+    opacity: 1;
+}
+
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
