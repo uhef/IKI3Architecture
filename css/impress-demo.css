@@ -313,17 +313,6 @@ a:focus {
     left: 200px;
 }
 
-#returnFE #iki-redis-arrow {
-    width: 200px;
-    height: 150px;
-    background-size: 100%;
-    background-image: url('arrow2.svg');
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 850px;
-    top: -250px;
-}
-
 #returnFE #iki-torpedo-arrow {
     width: 200px;
     height: 266px;
@@ -356,7 +345,7 @@ a:focus {
     top: 400px;
 }
 
-#openSessionInTorpedo #torpedo-redis-arrow {
+#redis-arrow {
     width: 200px;
     height: 150px;
     background-size: 100%;
@@ -388,6 +377,16 @@ a:focus {
 }
 
 #queryMealPackageFromRedis #iki-redis {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: -400px;
+    text-align: center;
+    left: 200px;
+}
+
+#requestTravelClassesFromCache #sw-cache {
     width: 400px;
     height: 400px;
     background-color: white;
