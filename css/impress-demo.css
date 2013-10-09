@@ -288,6 +288,7 @@ a:focus {
     background-color: white;
     position: absolute;
     top: -400px;
+    text-align: center;
 }
 
 #enterURL #arrow {
