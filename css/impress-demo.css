@@ -356,6 +356,10 @@ a:focus {
     opacity: 1;
 }
 
+#queryMealPackageFromRedis.present #iki-cache-bullet {
+    opacity: 1;
+}
+
 .impress-on-renderPage #enterURL {
     opacity: 1;
 }
