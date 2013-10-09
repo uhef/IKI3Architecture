@@ -295,12 +295,8 @@ a:focus {
 .step .component li {
     font-size: 35px;
     display: inline-block;
-    opacity: 0;
+    opacity: 0.5;
     -webkit-transition: opacity 1.5s;
-}
-
-#enterURL.present li {
-    opacity: 1;
 }
 
 .step .arrow-down {
@@ -336,11 +332,27 @@ a:focus {
     top: -200px;
 }
 
+#enterURL.present #enter-url-bullet {
+    opacity: 1;
+}
+
+#returnFE.present #return-index-bullet {
+    opacity: 1;
+}
+
 .impress-on-renderPage #enterURL {
     opacity: 1;
 }
 
+.impress-on-renderPage #enterURL #render-page-bullet {
+    opacity: 1;
+}
+
 .impress-on-openSessionInIKI #returnFE {
+    opacity: 1;
+}
+
+.impress-on-openSessionInIKI #returnFE #open-session-bullet {
     opacity: 1;
 }
 
