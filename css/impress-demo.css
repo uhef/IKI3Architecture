@@ -239,6 +239,14 @@ a:focus {
     white-space: nowrap;
 }
 
+#arrow {
+    width: 200px;
+    height: 150px;
+    background-size: 100%;
+    background-image: url('arrow2.svg');
+    background-repeat: no-repeat;
+}
+
 /*
     And now we start to style each step separately.
 
