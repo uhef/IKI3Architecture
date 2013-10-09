@@ -377,6 +377,30 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-commenceWebBankPayment #enterURL {
+    opacity: 1;
+}
+
+.impress-on-generateWebBankURL #returnFE {
+    opacity: 1;
+}
+
+.impress-on-redirectToWebBank #enterURL {
+    opacity: 1;
+}
+
+.impress-on-redirectBackToIKI #enterURL {
+    opacity: 1;
+}
+
+.impress-on-sendConfirmation #returnFE {
+    opacity: 1;
+}
+
+.impress-on-confirmBooking #openSessionInSW {
+    opacity: 1;
+}
+
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
