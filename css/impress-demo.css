@@ -425,6 +425,14 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-returnMealPackageToIKI #returnFE {
+    opacity: 1;
+}
+
+.impress-on-returnMealPackageToTerminal #enterURL {
+    opacity: 1;
+}
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
