@@ -345,6 +345,37 @@ a:focus {
     top: 400px;
 }
 
+#openSessionInTorpedo #torpedo-redis-arrow {
+    width: 200px;
+    height: 150px;
+    background-size: 100%;
+    background-image: url('arrow2.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 850px;
+    top: -250px;
+}
+
+#openSessionInSW #bizlogic {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: -400px;
+    text-align: center;
+    left: 200px;
+}
+
+#saveSessionToRedis #torpedo-redis {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: -400px;
+    text-align: center;
+    left: 200px;
+}
+
 .impress-on-renderPage #enterURL {
     opacity: 1;
 }
@@ -352,6 +383,11 @@ a:focus {
 .impress-on-openSessionInIKI #returnFE {
     opacity: 1;
 }
+
+.impress-on-returnSessionToTorpedo #openSessionInTorpedo {
+    opacity: 1;
+}
+
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
