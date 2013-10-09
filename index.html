@@ -230,13 +230,24 @@
     <div id="openSessionInIKI" class="step" data-x="1000"></div>
 
     <div id="openSessionInTorpedo" class="step sequence" data-x="1000" data-y="1500">
-        <div id="torpedo" class="component">Torpedo</div>
+        <div id="torpedo" class="component">
+            Torpedo
+            <ul>
+                <li id="open-torpedo-session-bullet">5. Open session</li><br/>
+                <li id="store-session-bullet">7. Store session in Redis</li><br/>
+            </ul>
+        </div>
         <div id="torpedo-sw-arrow" class="arrow-down"></div>
         <div class="redis-arrow"></div>
     </div>
 
     <div id="openSessionInSW" class="step sequence" data-x="1000" data-y="3000">
-        <div id="bizlogic" class="component">BizLogic</div>
+        <div id="bizlogic" class="component">
+            BizLogic
+            <ul>
+                <li id="login-bullet">6. Login</li><br/>
+            </ul>
+        </div>
         <div class="redis-arrow"></div>
         <div id="sw-captain-arrow" class="arrow-up"></div>
     </div>

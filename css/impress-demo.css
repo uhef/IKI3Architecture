@@ -340,6 +340,14 @@ a:focus {
     opacity: 1;
 }
 
+#openSessionInTorpedo.present #open-torpedo-session-bullet {
+    opacity: 1;
+}
+
+#openSessionInSW #login-bullet {
+    opacity: 1;
+}
+
 .impress-on-renderPage #enterURL {
     opacity: 1;
 }
@@ -360,6 +368,9 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-returnSessionToTorpedo #openSessionInTorpedo #store-session-bullet {
+    opacity: 1;
+}
 .impress-on-afterSavingSessionToRedis #openSessionInTorpedo {
     opacity: 1;
 }
