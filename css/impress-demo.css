@@ -336,6 +336,30 @@ a:focus {
     opacity: 0;
 }
 
+#terminal {
+    background: #d2d2ed;
+}
+
+#frontEndDetails {
+    background: #d2d2ed;
+}
+
+#iki {
+    background: #e0edd2;
+}
+
+#ikiDetails {
+    background: #e0edd2;
+}
+
+#torpedo {
+    background: #fffebb;
+}
+
+#torpedoDetails {
+    background: #fffebb;
+}
+
 #enterURL.present #enter-url-bullet {
     opacity: 1;
 }
