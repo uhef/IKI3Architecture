@@ -240,6 +240,13 @@
 
     <div id="renderPage" class="step"></div>
 
+    <div id="fetchContentFromCMS" class="step sequence" data-x="-1000">
+        <div id="cms" class="component">CMS</div>
+        <div class="arrow-left"></div>
+    </div>
+
+    <div id="returnContentToFrontEnd" class="step"></div>
+
     <div id="openSessionInIKI" class="step" data-x="1000"></div>
 
     <div id="openSessionInTorpedo" class="step sequence" data-x="1000" data-y="1500">
@@ -270,7 +277,7 @@
     <div id="returnSessionToTorpedo" class="step" data-x="1000" data-y="1500"></div>
 
     <div id="saveSessionToRedis" class="step sequence" data-x="2000" data-y="1500">
-        <div id="torpedo-redis" class="component">Torpedo Redis</div>
+        <div id="torpedo-redis" class="component cache">Torpedo Redis</div>
     </div>
 
     <div id="afterSavingSessionToRedis" class="step" data-x="1000" data-y="1500"></div>
@@ -282,7 +289,7 @@
     <div id="queryMealPackageFromIKI" class="step" data-x="1000"></div>
 
     <div id="queryMealPackageFromRedis" class="step sequence" data-x="2000">
-        <div id="iki-redis" class="component">
+        <div id="iki-redis" class="component cache">
             IKI3 Redis
             <ul>
                 <li id="iki-cache-bullet">IKI cache which doesn't work at the moment</li>
@@ -299,7 +306,7 @@
     <div id="requestTravelClassesFromSW" class="step" data-x="1000" data-y="3000"></div>
 
     <div id="requestTravelClassesFromCache" class="step sequence" data-x="2000" data-y="3000">
-        <div id="sw-cache" class="component">SeaWare Cache</div>
+        <div id="sw-cache" class="component cache">SeaWare Cache</div>
     </div>
 
     <div id="returnTravelClassToSW" class="step" data-x="1000" data-y="3000"></div>
@@ -361,7 +368,7 @@
     <div id="torpedoDetails" class="step slide" data-x="1000" data-y="1500" data-z="-3000">
         <q>1. RMI to IKI using <b>torpedo-api</b> jar<br/>
             2. XML to BizLogic<br/>
-            3. Session management<br/>
+            3. Session - BizLogic mapping<br/>
             4. Request queuing<br/>
             5. Exception handling<br/>
             6. Maintains <b>xmlapi.log</b><br/>

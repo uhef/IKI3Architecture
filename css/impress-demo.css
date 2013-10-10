@@ -332,8 +332,23 @@ a:focus {
     top: -200px;
 }
 
+.step .arrow-left {
+    width: 200px;
+    height: 150px;
+    background-size: 100%;
+    background-image: url('arrow-left.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 900px;
+    top: -200px;
+}
+
 .step.slide {
     opacity: 0;
+}
+
+.component.cache {
+    background: #ffcaca;
 }
 
 #terminal {
@@ -397,6 +412,10 @@ a:focus {
 }
 
 .impress-on-renderPage #enterURL #render-page-bullet {
+    opacity: 1;
+}
+
+.impress-on-returnContentToFrontEnd #enterURL {
     opacity: 1;
 }
 
