@@ -332,6 +332,10 @@ a:focus {
     top: -200px;
 }
 
+.step.slide {
+    opacity: 0;
+}
+
 #enterURL.present #enter-url-bullet {
     opacity: 1;
 }
@@ -487,6 +491,25 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-frontEndDetails #enterURL {
+    opacity: 1;
+}
+
+.impress-on-architectureOverviewAfterFrontEnd .step.sequence {
+    opacity: 1;
+}
+
+.impress-on-ikiDetails #returnFE {
+    opacity: 1;
+}
+
+.impress-on-architectureOverviewAfterIKIDetails .step.sequence {
+    opacity: 1;
+}
+
+.impress-on-torpedoDetails #openSessionInTorpedo {
+    opacity: 1;
+}
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need

@@ -203,7 +203,7 @@
     -->
     <div id="enterURL" class="step sequence">
         <div id="terminal" class="component">
-            Browser
+            Front End
             <ul>
                 <li id="enter-url-bullet">1. Enter booking.tallink.com</li><br/>
                 <li id="render-page-bullet">3. Render page</li><br/>
@@ -328,7 +328,37 @@
 
     <div id="confirmBooking" class="step" data-x="1000" data-y="3000"></div>
 
-    <div id="architectureOverview" class="step" data-x="1500" data-y="2000" data-scale="6">
+    <div id="architectureOverview" class="step" data-x="1500" data-y="2000" data-scale="6"></div>
+
+    <div id="frontEndDetails" class="step slide" data-z="-3000">
+        <q>1. Runs in browser<br/>
+            2. Provides fake back-end<br/>
+            3. Tested with mocha tests<br/>
+            4. Exception handling<br/>
+            5. JSON to IKI<br/></q>
+    </div>
+
+    <div id="architectureOverviewAfterFrontEnd" class="step" data-x="1500" data-y="2000" data-scale="6"></div>
+
+    <div id="ikiDetails" class="step slide" data-x="1000" data-z="-3000">
+        <q>1. Threading model<br/>
+            2. Supports web bank payment<br/>
+            3. Supports credit card payment<br/>
+            4. Can cache some responses<br/>
+            6. <b>.properties</b> files<br/>
+            7. Maintains <b>iki</b> and <b>payment</b> log<br/>
+            8. Exception handling</q>
+    </div>
+
+    <div id="architectureOverviewAfterIKIDetails" class="step" data-x="1500" data-y="2000" data-scale="6"></div>
+
+    <div id="torpedoDetails" class="step slide" data-x="1000" data-y="1500" data-z="-3000">
+        <q>1. RMI to IKI using <b>torpedo-api</b> jar<br/>
+            2. XML to BizLogic<br/>
+            3. Session management<br/>
+            4. Request queuing<br/>
+            5. Exception handling<br/>
+            6. Maintains <b>xmlapi.log</b><br/>
     </div>
 
     <!--
