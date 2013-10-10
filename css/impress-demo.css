@@ -364,6 +364,10 @@ a:focus {
     opacity: 1;
 }
 
+.impress-on-start .step.sequence {
+    opacity: 1;
+}
+
 .impress-on-renderPage #enterURL {
     opacity: 1;
 }
