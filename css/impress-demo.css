@@ -351,6 +351,10 @@ a:focus {
     background: #ffcaca;
 }
 
+.component.external {
+    background: #edcdae;
+}
+
 #terminal {
     background: #d2d2ed;
 }
