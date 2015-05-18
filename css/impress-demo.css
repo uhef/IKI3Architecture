@@ -355,6 +355,10 @@ a:focus {
     background: #edcdae;
 }
 
+#future q {
+    line-height: 68px;
+}
+
 #terminal {
     background: #d2d2ed;
 }
